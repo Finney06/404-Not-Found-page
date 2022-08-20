@@ -38,15 +38,13 @@ nav {
 main {
     display: flex;
     margin: 0 auto;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
     margin-left: 24px;
+    flex-direction: column;
 }
 
 img {
     height: 238.00001525878906px;
     width: 286.829833984375px;
-    border-radius: 0px;
     margin-top: 64px;
 }
 
@@ -79,16 +77,13 @@ section p {
 button {
     height: 68px;
     width: 216px;
-    border-radius: 0px;
     background-color: #333333;
     font-family: "Space Mono";
-    font-style: normal;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.035em;
     text-transform: uppercase;
     color: #ffffff;
-    border: 0;
     margin-top: 66px;
 }
 
@@ -104,15 +99,15 @@ footer p {
     margin-top: 70px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 900px) {
     main {
         flex-direction: row;
     }
 
     img {
         height: 447.4263916015625px;
+        width: 539.2236938476562px;
         margin-right: 119.78px;
-        border-radius: 0px;
     }
 
 
